@@ -2,6 +2,7 @@ import openpyxl
 import numpy as np
 import matplotlib.pyplot as plt
 
+
 # месторасположение эксель таблицы
 excel_files = ['/Users/dmitr/Desktop/MIPT/3 семак/Лабы/test.xlsx']
 
@@ -11,7 +12,7 @@ Sheet = 'Sheet1'
 
 class Figure(object):
     def __init__(self, X, Y, s, n, q):
-        # y = kx + b
+        # МНК для y = kx + b
         def equation1(x, y):
             xy = []
             sqr_x = []
@@ -27,7 +28,7 @@ class Figure(object):
             sb = round(sk1 * np.std(x), 4)
             return round(k1, 3), round(b1, 3), sk1, sb
 
-        # y = kx
+        # МНК для y = kx
         def equation2(x, y):
             xy = []
             sqr_x = []
@@ -46,6 +47,7 @@ class Figure(object):
         self.constant = 0
         self.sig_constant = 0
 
+        # считываем данные
         for file in excel_files:
             workbook = openpyxl.load_workbook(file)
             worksheet = workbook[Sheet]
@@ -55,6 +57,7 @@ class Figure(object):
                 self.values_X.append(cell_value2)
                 self.values_Y.append(cell_value1)
 
+        # обработка данных
         if q == 1:
             self.tangent, self.constant, self.sig_tangent, self.sig_constant = equation1(self.values_X, self.values_Y)
             k = self.tangent
@@ -76,6 +79,7 @@ class Figure(object):
             print('y =', k, 'x')
             print('sigma_k = ', s_k)
 
+    # строим графики
     def graph(self, x, y, lab, c):
         q = self.index
         plt.ylabel(y)
@@ -96,7 +100,7 @@ class Figure(object):
 def main():
     colors = ['tab:blue', 'tab:orange', 'tab:green',
               'tab:red', 'tab:purple', 'tab:brown', 'tab:pink',
-              'tab:gray', 'tab:olive', 'tab:cyan']
+              'tab:gray', 'tab:olive', 'tab:cyan']  # цвета
     x = ['A']  # столбцы, где хранятся аргументы функции
     y = ['B', 'C', 'D']  # столбцы, где хранятся значения функции
     x_label = ['Test x']  # обозначения аргументов функции
@@ -105,7 +109,7 @@ def main():
     tit = ['Test title']  # общее название графиков
     """ "1" если y = kx + b, "2" если y = kx"""
     ind = [2]  # используемый метод в соответствующем графике
-    start = [1]
+    start = [1]  # номер начальной ячейки
     data = [9]  # количество точек в соответствующем графике
     numb = 3  # количество графиков
 
