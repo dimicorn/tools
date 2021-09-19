@@ -39,7 +39,7 @@ class Figure(object):
                 sqr_y.append(y[j] ** 2)
             k1 = np.mean(xy) / np.mean(sqr_x)
             sk1 = np.sqrt((np.mean(sqr_y) / np.mean(sqr_x) - k1 ** 2) / (len(x) - 1))
-            return k1, sk1
+            return round(k1, 3), round(sk1, 3)
 
         self.values_Y = []
         self.values_X = []
