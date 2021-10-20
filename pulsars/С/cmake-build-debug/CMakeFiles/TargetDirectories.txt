@@ -1,0 +1,3 @@
+C:/Users/dmitr/Desktop/MIPT/3 sem/Vasily/repo/psrcat/cmake-build-debug/CMakeFiles/psrcat.dir
+C:/Users/dmitr/Desktop/MIPT/3 sem/Vasily/repo/psrcat/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/dmitr/Desktop/MIPT/3 sem/Vasily/repo/psrcat/cmake-build-debug/CMakeFiles/rebuild_cache.dir
