@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/dmitr/Desktop/MIPT/3 sem/Vasily/repo/psrcat
+# Install script for directory: C:/Users/dmitr/Desktop/MIPT/3 sem/tools/pulsars/С
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/dmitr/Desktop/MIPT/3 sem/Vasily/repo/psrcat/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/dmitr/Desktop/MIPT/3 sem/tools/pulsars/С/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -3,7 +3,8 @@
 #include <string>
 #include <sstream>
 #include <vector>
-
+#include "pbPlots.hpp"
+#include "supportLib.hpp"
 
 class Pulsar{
 public:
@@ -67,6 +68,14 @@ int main() {
     else {
         std::cout << "Unable to open file";
     }
+    RGBABitmapImageReference *imageReference = CreateRGBABitmapImageReference();
+    std::vector<double> xs{-2, -1, 0, 1, 2};
+    std::vector<double> ys{2, -1, -2, -1, 2};
 
+    DrawScatterPlot(imageReference, 600, 400, &xs, &ys);
+
+    std::vector<double> *pngdata = ConvertToPNG(imageReference->image);
+    WriteToFile(pngdata, "example1.png");
+    DeleteImage(imageReference->image);
     return 0;
 }

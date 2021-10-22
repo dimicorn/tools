@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/dmitr/Desktop/MIPT/3 sem/Vasily/repo/psrcat/main.cpp" "C:/Users/dmitr/Desktop/MIPT/3 sem/Vasily/repo/psrcat/cmake-build-debug/CMakeFiles/psrcat.dir/main.cpp.obj"
+  "C:/Users/dmitr/Desktop/MIPT/3 sem/tools/pulsars/С/main.cpp" "C:/Users/dmitr/Desktop/MIPT/3 sem/tools/pulsars/С/cmake-build-debug/CMakeFiles/psrcat.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
