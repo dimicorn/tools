@@ -1,0 +1,3 @@
+C:/Users/dmitr/Desktop/MIPT/3 sem/tools/pulsars/Akopian edited/cmake-build-debug/CMakeFiles/Akopian_edited.dir
+C:/Users/dmitr/Desktop/MIPT/3 sem/tools/pulsars/Akopian edited/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/dmitr/Desktop/MIPT/3 sem/tools/pulsars/Akopian edited/cmake-build-debug/CMakeFiles/rebuild_cache.dir

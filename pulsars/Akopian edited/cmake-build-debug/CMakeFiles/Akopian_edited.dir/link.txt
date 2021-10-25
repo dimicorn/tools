@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Akopian_edited.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\Akopian_edited.dir/objects.a @CMakeFiles\Akopian_edited.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Akopian_edited.dir/objects.a -Wl,--no-whole-archive -o Akopian_edited.exe -Wl,--out-implib,libAkopian_edited.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Akopian_edited.dir\linklibs.rsp
