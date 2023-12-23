@@ -1,3 +1,0 @@
-C:/Users/dmitr/Desktop/MIPT/3 sem/tools/pulsars/С/cmake-build-debug/CMakeFiles/psrcat.dir
-C:/Users/dmitr/Desktop/MIPT/3 sem/tools/pulsars/С/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/dmitr/Desktop/MIPT/3 sem/tools/pulsars/С/cmake-build-debug/CMakeFiles/rebuild_cache.dir
